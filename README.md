@@ -2,7 +2,7 @@
 
 A full-stack **relational database design and analytics project**: designed a normalized PostgreSQL schema for a 5-location retail grocery chain, built a Python ETL pipeline to populate it, wrote 10 analytical SQL queries, and delivered an executive Metabase dashboard.
 
-**Group project** — APAN 5310 (SQL), Columbia University. My role: **Analytics & Reporting Lead** — designed and wrote all 10 analytical SQL queries, built the Metabase executive dashboard, and led the client-facing presentation. Schema/ERD design, triggers, and the Python ETL script were built by teammates Yike Meng and Maggie Teng; full team credit in the [project report](./docs/Project_Report.pdf).
+**Group project** — APAN 5310 (SQL), Columbia University. 
 
 ---
 
