@@ -22,7 +22,7 @@ ABC Foodmart, a 30-year-old neighborhood grocery chain in Queens, NY, was expand
 
 A Python script (`populate_data.py`) using `faker` and `psycopg2` generates realistic synthetic data and loads it in strict foreign-key dependency order, with a fixed random seed for reproducibility and inventory checks before each transaction insert to prevent negative stock.
 
-## Analytical Queries (my contribution)
+## Analytical Queries
 
 10 SQL queries answering real business questions across Finance, Sales, Operations, and HR, using **CTEs, window functions (`RANK()`, `LAG()`, `SUM() OVER (PARTITION BY)`), joins, and aggregate/HAVING logic**:
 
@@ -41,7 +41,7 @@ A Python script (`populate_data.py`) using `faker` and `psycopg2` generates real
 
 ## Executive Dashboard
 
-I built an interactive **Metabase** dashboard (connected live to PostgreSQL) with three tabs so non-technical stakeholders could self-serve insights:
+Built an interactive **Metabase** dashboard (connected live to PostgreSQL) with three tabs so non-technical stakeholders could self-serve insights:
 - **Financial Overview** — revenue and labor cost by store
 - **Sales & Products** — daily revenue trend, top products, transaction volume
 - **Operations** — low-inventory alerts, top-20 customer rankings
